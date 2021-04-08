@@ -23,6 +23,8 @@
 
  
  Otherwise visit the deployed application :
+
+ https://new-budget-tracker.herokuapp.com/
   
 
   # Usage :

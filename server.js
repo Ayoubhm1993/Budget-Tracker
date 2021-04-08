@@ -20,7 +20,7 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true 
-});
+},(err)=> console.log('couldnt connect to db',err));
 
 // routes
 app.use(require("./routes/api.js"));
